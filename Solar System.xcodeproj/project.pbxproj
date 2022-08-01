@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F0C7F52897EE4B00BBFF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C7F42897EE4B00BBFF56 /* AppDelegate.swift */; };
+		63F0C7F72897EE4B00BBFF56 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F0C7F62897EE4B00BBFF56 /* art.scnassets */; };
+		63F0C7F92897EE4B00BBFF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C7F82897EE4B00BBFF56 /* ViewController.swift */; };
+		63F0C7FC2897EE4B00BBFF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0C7FA2897EE4B00BBFF56 /* Main.storyboard */; };
+		63F0C7FE2897EE5000BBFF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F0C7FD2897EE5000BBFF56 /* Assets.xcassets */; };
+		63F0C8012897EE5000BBFF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0C7FF2897EE5000BBFF56 /* LaunchScreen.storyboard */; };
+		63F0C80B2897EE5100BBFF56 /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C80A2897EE5100BBFF56 /* Solar_SystemTests.swift */; };
+		63F0C8152897EE5100BBFF56 /* Solar_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C8142897EE5100BBFF56 /* Solar_SystemUITests.swift */; };
+		63F0C8172897EE5100BBFF56 /* Solar_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C8162897EE5100BBFF56 /* Solar_SystemUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F0C8072897EE5100BBFF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F0C7E92897EE4B00BBFF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F0C7F02897EE4B00BBFF56;
+			remoteInfo = "Solar System";
+		};
+		63F0C8112897EE5100BBFF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F0C7E92897EE4B00BBFF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F0C7F02897EE4B00BBFF56;
+			remoteInfo = "Solar System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F0C7F12897EE4B00BBFF56 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0C7F42897EE4B00BBFF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F0C7F62897EE4B00BBFF56 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		63F0C7F82897EE4B00BBFF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F0C7FB2897EE4B00BBFF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F0C7FD2897EE5000BBFF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F0C8002897EE5000BBFF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F0C8062897EE5100BBFF56 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0C80A2897EE5100BBFF56 /* Solar_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemTests.swift; sourceTree = "<group>"; };
+		63F0C8102897EE5100BBFF56 /* Solar SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0C8142897EE5100BBFF56 /* Solar_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemUITests.swift; sourceTree = "<group>"; };
+		63F0C8162897EE5100BBFF56 /* Solar_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F0C7EE2897EE4B00BBFF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C8032897EE5100BBFF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C80D2897EE5100BBFF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F0C7E82897EE4B00BBFF56 = {
+			isa = PBXGroup;
+			children = (
+				63F0C7F32897EE4B00BBFF56 /* Solar System */,
+				63F0C8092897EE5100BBFF56 /* Solar SystemTests */,
+				63F0C8132897EE5100BBFF56 /* Solar SystemUITests */,
+				63F0C7F22897EE4B00BBFF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F0C7F22897EE4B00BBFF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F0C7F12897EE4B00BBFF56 /* Solar System.app */,
+				63F0C8062897EE5100BBFF56 /* Solar SystemTests.xctest */,
+				63F0C8102897EE5100BBFF56 /* Solar SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F0C7F32897EE4B00BBFF56 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				63F0C7F42897EE4B00BBFF56 /* AppDelegate.swift */,
+				63F0C7F62897EE4B00BBFF56 /* art.scnassets */,
+				63F0C7F82897EE4B00BBFF56 /* ViewController.swift */,
+				63F0C7FA2897EE4B00BBFF56 /* Main.storyboard */,
+				63F0C7FD2897EE5000BBFF56 /* Assets.xcassets */,
+				63F0C7FF2897EE5000BBFF56 /* LaunchScreen.storyboard */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
+		63F0C8092897EE5100BBFF56 /* Solar SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F0C80A2897EE5100BBFF56 /* Solar_SystemTests.swift */,
+			);
+			path = "Solar SystemTests";
+			sourceTree = "<group>";
+		};
+		63F0C8132897EE5100BBFF56 /* Solar SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63F0C8142897EE5100BBFF56 /* Solar_SystemUITests.swift */,
+				63F0C8162897EE5100BBFF56 /* Solar_SystemUITestsLaunchTests.swift */,
+			);
+			path = "Solar SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F0C7F02897EE4B00BBFF56 /* Solar System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0C81A2897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar System" */;
+			buildPhases = (
+				63F0C7ED2897EE4B00BBFF56 /* Sources */,
+				63F0C7EE2897EE4B00BBFF56 /* Frameworks */,
+				63F0C7EF2897EE4B00BBFF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar System";
+			productName = "Solar System";
+			productReference = 63F0C7F12897EE4B00BBFF56 /* Solar System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F0C8052897EE5100BBFF56 /* Solar SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0C81D2897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */;
+			buildPhases = (
+				63F0C8022897EE5100BBFF56 /* Sources */,
+				63F0C8032897EE5100BBFF56 /* Frameworks */,
+				63F0C8042897EE5100BBFF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0C8082897EE5100BBFF56 /* PBXTargetDependency */,
+			);
+			name = "Solar SystemTests";
+			productName = "Solar SystemTests";
+			productReference = 63F0C8062897EE5100BBFF56 /* Solar SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63F0C80F2897EE5100BBFF56 /* Solar SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0C8202897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar SystemUITests" */;
+			buildPhases = (
+				63F0C80C2897EE5100BBFF56 /* Sources */,
+				63F0C80D2897EE5100BBFF56 /* Frameworks */,
+				63F0C80E2897EE5100BBFF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0C8122897EE5100BBFF56 /* PBXTargetDependency */,
+			);
+			name = "Solar SystemUITests";
+			productName = "Solar SystemUITests";
+			productReference = 63F0C8102897EE5100BBFF56 /* Solar SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F0C7E92897EE4B00BBFF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63F0C7F02897EE4B00BBFF56 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					63F0C8052897EE5100BBFF56 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63F0C7F02897EE4B00BBFF56;
+					};
+					63F0C80F2897EE5100BBFF56 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63F0C7F02897EE4B00BBFF56;
+					};
+				};
+			};
+			buildConfigurationList = 63F0C7EC2897EE4B00BBFF56 /* Build configuration list for PBXProject "Solar System" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F0C7E82897EE4B00BBFF56;
+			productRefGroup = 63F0C7F22897EE4B00BBFF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F0C7F02897EE4B00BBFF56 /* Solar System */,
+				63F0C8052897EE5100BBFF56 /* Solar SystemTests */,
+				63F0C80F2897EE5100BBFF56 /* Solar SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F0C7EF2897EE4B00BBFF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0C7F72897EE4B00BBFF56 /* art.scnassets in Resources */,
+				63F0C8012897EE5000BBFF56 /* LaunchScreen.storyboard in Resources */,
+				63F0C7FE2897EE5000BBFF56 /* Assets.xcassets in Resources */,
+				63F0C7FC2897EE4B00BBFF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C8042897EE5100BBFF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C80E2897EE5100BBFF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F0C7ED2897EE4B00BBFF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0C7F92897EE4B00BBFF56 /* ViewController.swift in Sources */,
+				63F0C7F52897EE4B00BBFF56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C8022897EE5100BBFF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0C80B2897EE5100BBFF56 /* Solar_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0C80C2897EE5100BBFF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0C8152897EE5100BBFF56 /* Solar_SystemUITests.swift in Sources */,
+				63F0C8172897EE5100BBFF56 /* Solar_SystemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F0C8082897EE5100BBFF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F0C7F02897EE4B00BBFF56 /* Solar System */;
+			targetProxy = 63F0C8072897EE5100BBFF56 /* PBXContainerItemProxy */;
+		};
+		63F0C8122897EE5100BBFF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F0C7F02897EE4B00BBFF56 /* Solar System */;
+			targetProxy = 63F0C8112897EE5100BBFF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F0C7FA2897EE4B00BBFF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F0C7FB2897EE4B00BBFF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F0C7FF2897EE5000BBFF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F0C8002897EE5000BBFF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F0C8182897EE5100BBFF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63F0C8192897EE5100BBFF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F0C81B2897EE5100BBFF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63F0C81C2897EE5100BBFF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63F0C81E2897EE5100BBFF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
+			};
+			name = Debug;
+		};
+		63F0C81F2897EE5100BBFF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
+			};
+			name = Release;
+		};
+		63F0C8212897EE5100BBFF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solar System";
+			};
+			name = Debug;
+		};
+		63F0C8222897EE5100BBFF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dogukan.dogan.Solar-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solar System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F0C7EC2897EE4B00BBFF56 /* Build configuration list for PBXProject "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0C8182897EE5100BBFF56 /* Debug */,
+				63F0C8192897EE5100BBFF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F0C81A2897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0C81B2897EE5100BBFF56 /* Debug */,
+				63F0C81C2897EE5100BBFF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F0C81D2897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0C81E2897EE5100BBFF56 /* Debug */,
+				63F0C81F2897EE5100BBFF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F0C8202897EE5100BBFF56 /* Build configuration list for PBXNativeTarget "Solar SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0C8212897EE5100BBFF56 /* Debug */,
+				63F0C8222897EE5100BBFF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F0C7E92897EE4B00BBFF56 /* Project object */;
+}
